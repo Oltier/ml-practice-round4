@@ -22,7 +22,7 @@ def regularizedPolynomialRegression(x, y, l=0, degree=2):
 # specify the degree
 degree = 6
 # specify list of values for lambda to be considered
-lambdas = [0, 0.5, 2]
+lambdas = [0, 0.01, 0.1, 0.5, 1, 2, 5]
 
 
 def trainValErrorsRegularization(x_train, y_train, x_val, y_val, lambdas=[0], degree=2):

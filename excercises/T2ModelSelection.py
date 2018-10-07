@@ -45,7 +45,7 @@ y_train = y[1::2]
 y_val = y[0::2]
 
 # the degrees we want to loop over
-degrees = [1, 3, 4]
+degrees = [1, 2, 3, 4, 5, 6]
 
 
 def trainValErrors(x_train, y_train, x_val, y_val, degrees):
